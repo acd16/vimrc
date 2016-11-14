@@ -13,13 +13,15 @@ Plugin 'gmarik/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-"Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'godlygeek/tabular'
 Plugin 'nathanalderson/yang.vim'
 "Plugin 'godlygeek/csapprox'
 "Plugin 'Valloric/YouCompleteMe'
-"Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'Raimondi/delimitMate'
+#Plugin 'vim-scripts/DrawIt'
 "Plugin 'tpope/fugitive'
 "Plugin 'Shougo/neocomplete.vim'
 "" plugin from http://vim-scripts.org/vim/scripts.html
@@ -260,3 +262,12 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+let mapleader=","
+set hidden
+set showmatch
+set shiftwidth=4
+
+nnoremap <C-=> <C-W>=
+
+set noswapfile

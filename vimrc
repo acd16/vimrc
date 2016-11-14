@@ -21,7 +21,7 @@ Plugin 'nathanalderson/yang.vim'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'Raimondi/delimitMate'
-#Plugin 'vim-scripts/DrawIt'
+"Plugin 'vim-scripts/DrawIt'
 "Plugin 'tpope/fugitive'
 "Plugin 'Shougo/neocomplete.vim'
 "" plugin from http://vim-scripts.org/vim/scripts.html
